@@ -38,4 +38,4 @@ Advance C++ programming in details with examples.
 
 ### Files
 
-- [Writing text files]()
+- [Writing text files](../master/Files/WriteFiles): Example on how to create a text files.
