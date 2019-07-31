@@ -16,6 +16,10 @@ void mightGoWrong() {
     }
 }
 
+void useMightGoWrong() {
+    mightGoWrong();
+}
+
 int main() {
     try {
         mightGoWrong();
