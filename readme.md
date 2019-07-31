@@ -1,22 +1,31 @@
 # Advance Cpp
 
+Advance C++ programming in details with examples.
+
 ## Configure VSCode
 
-1. Create `.vscode` folder with the following [tasks.json]().
+- Create `.vscode` folder with the following [tasks.json](../master/.vscode/tasks.json).
 
-2. Go to `File` > `Preferences` > `Keyboards Shortcuts`, change `Tasks: Run Build Task` and `Tasks: Run Test Task` to preferred key map.
+- Go to `File` > `Preferences` > `Keyboards Shortcuts`, change `Tasks: Run Build Task` and `Tasks: Run Test Task` to preferred key map.
 
-3. Clang-Format Style is set to
+- Clang-Format Style is set to
 
 ```json
     { 
-        BasedOnStyle: Google, 
-        UseTab: Never, 
-        IndentWidth: 4, 
-        TabWidth: 4, 
-        AllowShortIfStatementsOnASingleLine: false, 
-        IndentCaseLabels: false, 
-        ColumnLimit: 0, 
-        AccessModifierOffset: -4 
+        "BasedOnStyle": "Google", 
+        "UseTab": "Never", 
+        "IndentWidth": 4, 
+        "TabWidth": 4, 
+        "AllowShortIfStatementsOnASingleLine": false, 
+        "IndentCaseLabels": false, 
+        "ColumnLimit": 0, 
+        "AccessModifierOffset": -4 
     }
 ```
+
+
+## Contents
+
+### Exceptions
+
+- [Basics of exceptions](../master/Exceptions/ExceptionsBasics.cpp): Catching exception with different return types.
