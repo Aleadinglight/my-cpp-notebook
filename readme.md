@@ -33,3 +33,5 @@ Advance C++ programming in details with examples.
 - [Standard exceptions](../master/Exceptions/ExceptionsStandard.cpp): Catching a `bad_alloc` exception while allocating memory.
 
 - [Custom exceptions](../master/Exceptions/ExceptionsCustom.cpp): Create a custom exception using C++ library `exception`.
+
+- [Ordering exceptions](../master/Exceptions/ExceptionsOrder.cpp): Example on how to catch exception in the right order.
