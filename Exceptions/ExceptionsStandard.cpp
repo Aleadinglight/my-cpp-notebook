@@ -5,7 +5,7 @@ using namespace std;
 class CanGoWrong {
 public:
     CanGoWrong() {
-        char *pMemory = new char[99999999999999999999];
+        char *pMemory = new char[9999999999999999];
         delete[] pMemory;
     }
 };
@@ -17,6 +17,6 @@ int main() {
         cout << "Caught exception: " << e.what() << endl;
     }
 
-    cout << "Still running" << endl;
+    cout << "Program is running till the end." << endl;
     return 0;
 }
