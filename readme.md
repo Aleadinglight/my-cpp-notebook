@@ -31,3 +31,5 @@ Advance C++ programming in details with examples.
 - [Basics of exceptions](../master/Exceptions/ExceptionsBasics.cpp): Catching exception with different return types.
 
 - [Standard exceptions](../master/Exceptions/ExceptionsStandard.cpp): Catching a `bad_alloc` exception while allocating memory.
+
+- [Custom exceptions](../master/Exceptions/ExceptionsCustom.cpp): Create a custom exception using C++ library `exception`.
