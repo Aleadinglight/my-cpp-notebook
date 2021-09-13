@@ -39,3 +39,7 @@ Advance C++ programming in details with examples.
 ### Files
 
 - [Writing text files](../master/Files/WriteFile.cpp): Example on how to create and write to a text files.
+
+### Inheritance
+
+- [Virtual function](../master/Inheritance/VirtualFunction.cpp): Using virtual function in a class.
