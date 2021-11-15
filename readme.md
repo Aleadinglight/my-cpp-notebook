@@ -6,9 +6,9 @@ Advance C++ programming in details with examples.
 
 - Create `.vscode` folder with the following [tasks.json](../master/.vscode/tasks.json).
 
-- Go to `File` > `Preferences` > `Keyboards Shortcuts`, change `Tasks: Run Build Task` and `Tasks: Run Test Task` to preferred key map.
+- Go to `File` -> `Preferences` -> `Keyboards Shortcuts`, change `Tasks: Run Build Task` and `Tasks: Run Test Task` to preferred key map.
 
-- Clang-Format Style is set to
+- Go to `File` -> `Preferences` -> Search for `C_Cpp.clang_format_fallbackStyle`. Change from "Visual Studio" to
 
 ```json
     { 
@@ -25,6 +25,13 @@ Advance C++ programming in details with examples.
 
 
 ## Contents
+
+### Common Data Structures
+
+- [Priority queue](../master/Data%20Structures/PriorityQueue.cpp): Using priority queue as max heap and min heap.
+- [Link list]().
+
+### Using Compare
 
 ### Exceptions
 
