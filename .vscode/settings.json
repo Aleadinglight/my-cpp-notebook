@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "xstddef": "cpp",
+    "algorithm": "cpp",
+    "xiosbase": "cpp",
+    "xlocale": "cpp",
+    "xutility": "cpp",
+    "memory": "cpp"
+  }
+}
