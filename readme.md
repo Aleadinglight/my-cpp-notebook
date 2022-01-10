@@ -1,6 +1,6 @@
 # Advance Cpp
 
-Advance C++ programming in details with examples.
+My C++ notebook with examples.
 
 ## Configure VSCode
 
@@ -45,7 +45,28 @@ Advance C++ programming in details with examples.
 
 ### Files
 
-- [Writing text files](../master/Files/WriteFile.cpp): Example on how to create and write to a text files.
+- [Reading text files](../master/Files/ReadFile.cpp): Example on how to read a text file.
+
+- Some notes on using `getline()`
+```cpp
+    // Initialize a file stream
+    std::fstream myFile;
+    myFile.open("data.txt", std::ios::in);
+    // Input string
+    std::string line
+    
+    // Read till end of line
+    std::getline(myFile, line)
+
+    // Read till there is a ' ' character, or end of line
+    std::getline(myFile, line, ' ')
+
+    // Read till there is a '1' character, or end of line
+    std::getline(myFile, line, '1')
+
+```
+
+- [Writing text files](../master/Files/WriteFile.cpp): Example on how to create and write to a text file.
 
 ### Inheritance
 
